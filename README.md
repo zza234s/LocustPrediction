@@ -15,7 +15,7 @@ The proposed **LocaR** is a multimodal large language model designed for global 
 
 
 ## Demo Video
-![demo](./demo_video/demo.gif)
+![demo](./demo_video/demo.mp4)
 ## Intended use 
 - Early warning systems for locust outbreak risk assessment
 - Decision support for desert locust surveillance and monitoring
