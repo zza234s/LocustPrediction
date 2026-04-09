@@ -67,7 +67,7 @@ uv pip install opencv-fixer && \
 ### 3. install verl from source
 
 ```
-git clone https://ghfast.top/https://github.com/volcengine/verl.git
+git clone https://github.com/zza234s/LocustPrediction.git
 cd verl
 uv pip install --no-deps -e .
 ```
