@@ -1,6 +1,6 @@
 set -x
 ENGINE=${1:-vllm}
-VALIDATION_DATA_DIR="/root/autodl-tmp/merge_model/qwen3_vl_4b_SFT_RL_1epoch_468step"
+VALIDATION_DATA_DIR="/Your Path/LocaR-SFT-RL-4B"
 python3 -m verl.trainer.main_ppo \
     algorithm.adv_estimator=grpo \
     data.train_files=$HOME/autodl-tmp/rl_grpo_global_scale_dataset_1211/train.parquet \

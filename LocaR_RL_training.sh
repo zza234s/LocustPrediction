@@ -1,6 +1,6 @@
 set -x
 ENGINE=${1:-vllm}
-VALIDATION_DATA_DIR="/root/autodl-tmp/Qwen/Qwen3-VL-4B-Instruct"
+VALIDATION_DATA_DIR="/{your base model folder}/Qwen3-VL-4B-Instruct"
 python3 -m verl.trainer.main_ppo \
     algorithm.adv_estimator=grpo \
     data.train_files=$HOME/autodl-tmp/rl_grpo_global_scale_dataset_1211/train.parquet \

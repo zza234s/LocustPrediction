@@ -81,14 +81,13 @@ uv pip install --no-deps -e .
 ### Evaluation script
 
 ```bash
-cd verl
-bash LocaR_test.sh
+bash LocaR-SFT-RL-4B_test.sh
 ```
 
 ### RL training script
 
-```
-bash LocaR_traininig.sh 
+```bash
+bash LocaR_RL_traininig.sh 
 ```
 
 
