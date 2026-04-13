@@ -15,7 +15,7 @@ The proposed **LocustLens** is a multimodal large language model system designed
 
 
 ## Demo Video
-[![Demo Video](https://img.youtube.com/vi/2gNO_J25wFA/maxresdefault.jpg)](https://www.youtube.com/watch?v=2gNO_J25wFA)
+[![Demo Video](https://img.youtube.com/vi/2gNO_J25wFA/maxresdefault.jpg)](https://www.youtube.com/watch?v=HA5PW2s1BaA)
 ## Intended use 
 - Early warning systems for locust outbreak risk assessment
 - Decision support for desert locust surveillance and monitoring
