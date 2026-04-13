@@ -4,7 +4,7 @@ license: mit
 
 <h1 align="center">Multimodal Large Language Models for Global Desert Locust Risk Prediction</h1>
 
-The proposed **LocaR** is a multimodal large language model system designed for global desert locust (Schistocerca gregaria) presence risk prediction. Built upon Qwen3-VL-4B, LocaR MLLM is fine-tuned through a two-stage training pipeline combining lightweight supervised fine-tuning and reinforcement learning on a curated 43-year locust event dataset.
+The proposed **LocustLens** is a multimodal large language model system designed for global desert locust (Schistocerca gregaria) presence risk prediction. Built upon Qwen3-VL-4B, LocustLens MLLM is fine-tuned through a two-stage training pipeline combining lightweight supervised fine-tuning and reinforcement learning on a curated 43-year locust event dataset.
 
 ![Figure 1](./Figures/Figure1_v4.png)
 
@@ -83,13 +83,13 @@ uv pip install --no-deps -e .
 ### Evaluation script
 
 ```bash
-bash LocaR-SFT-RL-4B_test.sh
+bash LocustLens-SFT-RL-4B_test.sh
 ```
 
 ### RL training script
 
 ```bash
-bash LocaR_RL_traininig.sh 
+bash LocustLens_RL_traininig.sh 
 ```
 
 
